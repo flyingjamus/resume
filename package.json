@@ -1,0 +1,16 @@
+{
+  "name": "flyingjamus-resume",
+  "version": "0.0.1",
+  "description": "Generator for my resume",
+  "author": "Danny Shternberg",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/flyingjamus/resume"
+  },
+  "dependencies": {
+    "autoprefixer": "^6.3.1",
+    "handlebars": "^2.0.0",
+    "postcss": "^5.0.14"
+  },
+  "license": "MIT"
+}

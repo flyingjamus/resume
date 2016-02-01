@@ -1,0 +1,84 @@
+{
+  "basics": {
+    "name": "Dan Shternberg",
+    "label": "Developer",
+    "picture": "",
+    "email": "flyingjamus@gmail.com",
+    "phone": "(972)-54-6868424",
+    "website": "",
+    "summary": "",
+    "location": {
+      "countryCode": "IL"
+    },
+    "profiles": []
+  },
+  "work": [
+    {
+      "company": "Wix",
+      "position": "Senior Developer",
+      "website": "",
+      "startDate": "2014",
+      "endDate": "2016",
+      "summary": "Developer and architect of onboarding project, building a new automatic website creation tool.",
+      "highlights": [
+        "Created Angular.js frontend.",
+        "Extensive algorithm performance and memory optimization work. Reduced running time by 98%.",
+        "Built node.js backend server using Sails.js and managed migration from Parse.com.",
+        "Designed and implemented an automatic typesetting engine.",
+        "Oversaw and guided other developers."
+      ]
+    },
+    {
+      "company": "Haifa University",
+      "position": "Developer (Freelance)",
+      "website": "",
+      "startDate": "2013",
+      "endDate": "2014",
+      "summary": "Developed an editable interactive math textbook.",
+      "highlights": [
+        "Created a DSL for building webpages with interactive graphs and other widgets, using Angular.js and JSXGraph.",
+        "Designed and built CMS to manage and edit individual copies of the book, using Ruby on Rails."
+      ]
+    },
+    {
+      "company": "Mobilibuy",
+      "position": "Developer (Freelance)",
+      "website": "",
+      "startDate": "2013",
+      "endDate": "2013",
+      "summary": "Developed an eCommerce Android app POC.",
+      "highlights": [
+        "Implemented product image recognition using Recognize.im api.",
+        "Paypal and Tranzila integration.",
+        "Created Ruby on Rails backend."
+      ]
+    },
+    {
+      "company": "Brandsforce",
+      "position": "Junior Developer",
+      "website": "",
+      "startDate": "2012",
+      "endDate": "2013",
+      "summary": "Worked on social marketing platform, using Java, GWT & PHP",
+      "highlights": []
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Tel Aviv University",
+      "area": "Mathematics",
+      "studyType": "B.Sc, Theoretical Mathematics",
+      "startDate": "2007",
+      "endDate": "2010",
+      "gpa": "4.0",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "publications": [],
+  "skills": [],
+  "languages": [],
+  "interests": [],
+  "references": []
+}

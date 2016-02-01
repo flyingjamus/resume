@@ -1,0 +1,200 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #fff;
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    color: #202020;
+}
+
+main {
+    margin: auto;
+    max-width: 750px;
+    padding: 1rem 2rem;
+}
+
+header {
+    background: #9b59b6;
+    padding: 1rem 2rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 0;
+    font-weight: normal;
+}
+
+section + section {
+    margin-top: 1.4rem;
+}
+
+h1 {
+    color: #ecf0f1;
+}
+
+h2 {
+    color: #bdc3c7;
+    font-size: 1.7em;
+    margin-bottom: 0;
+}
+
+h3 {
+    color: #9b59b6;
+    font-size: 1.8em;
+    margin-bottom: 0.4rem;
+}
+
+h4 {
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-bottom: .4rem;
+}
+
+h5 {
+    margin-bottom: 0.4rem;
+    font-size: 1rem;
+}
+
+ul.highlights {
+    margin: 0;
+}
+
+li {
+    line-height: 1.6;
+    list-style: none;
+    position: relative;
+}
+
+li:before {
+    content: "\f052";
+    float: left;
+    font: 0.9em Octicons;
+    opacity: .1;
+    height: .9em;
+    position: absolute;
+    left: -.9em;
+    top: .45em;
+}
+
+.summary {
+    margin: 0 0 .4rem;
+}
+
+#work .position,
+#volunteer .position {
+    font-weight: bold;
+}
+
+#education .area {
+    font-weight: bold;
+}
+
+.content {
+    width: 100%;
+}
+
+.date {
+    font-size: 0.8em;
+}
+
+.contact-detail + .contact-detail {
+    margin-top: .6rem;
+}
+
+.strike-through > div {
+    display: inline-block;
+}
+
+.date:before {
+    content: '(';
+}
+
+.date:after {
+    content: ')';
+}
+
+.job + .job {
+    margin-top: 1.4rem;
+}
+
+@media (min-width: 480px), print {
+    .strike-through {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+    }
+
+    .strike-through:before {
+        border-top: 1px solid #e7e9e9;
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 50%;
+        width: 100%;
+        margin-top: 1px;
+    }
+
+    .strike-through * {
+        background: #fff;
+        align-self: baseline;
+        position: relative;
+    }
+
+    .strike-through .date:before,
+    .strike-through .date:after {
+        display: none;
+    }
+}
+
+@media (min-width: 768px), print {
+    header {
+        padding: 2rem 0;
+    }
+
+    header > * {
+        width: 100%;
+        max-width: 750px;
+        margin: auto;
+        padding-left: 14rem;
+    }
+
+    h1 {
+        margin-bottom: .6rem;
+    }
+
+    main > section {
+        display: flex;
+        align-items: baseline;
+    }
+
+    h3 {
+        vertical-align: top;
+        min-width: 12rem;
+        width: 12rem;
+        flex: 0;
+        text-align: right;
+        padding-right: 1em;
+    }
+
+    #contact .content {
+        display: flex;
+    }
+
+    #contact .contact-detail {
+        flex-basis: 50%;
+        margin: 0;
+    }
+}
+
+@media print {
+    body {
+        font-size: 12px;
+    }
+}
